@@ -18,6 +18,7 @@ function App() {
     //タスクを追加する。
     //console.log(todoNameRef.current.value);
     const name = todoNameRef.current.value;
+    if (name === "") return;
     setTodos((prevTodos) => {
       return [...prevTodos, { id: "1", name: name, completed: false }];
     });
@@ -31,7 +32,11 @@ function App() {
     //反転させる　completed
     setTodos(newTodos);
   };
-
+  
+  const handleClear = () => {
+    const newTodos = todos.filter((todo) =>!todo.completed);
+    setTodos(newTodos);
+  };
 
   return (
     <div>
