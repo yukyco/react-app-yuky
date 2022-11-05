@@ -4,7 +4,7 @@
 プログラミングチュートリアル参照
 ”ReactでToDoListアプリを作ろう”
 
-完成形：https://github.com/yukyco/react-app-yuky/blob/main/todo5list.png
 
-mylogもよろしくお願いします！：
-https://artboxstandard.info/mylog/
+
+開発環境の構築の記録
+https://youtu.be/O1IxK0C_N1M
